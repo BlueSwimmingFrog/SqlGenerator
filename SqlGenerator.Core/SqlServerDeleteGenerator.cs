@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SqlGenerator.Core
 {
-    class SqlServerDeleteGenerator
+    public class SqlServerDeleteGenerator : StatementGeneratorBase
     {
     }
 }

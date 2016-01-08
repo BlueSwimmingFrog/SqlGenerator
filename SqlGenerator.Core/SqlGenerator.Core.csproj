@@ -51,7 +51,7 @@
     <Compile Include="Columns\StringColumn.cs" />
     <Compile Include="Columns\TimeColumn.cs" />
     <Compile Include="Columns\UnicodeStringColumn.cs" />
-    <Compile Include="GeneratorBase.cs" />
+    <Compile Include="Schema\GeneratorBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResultSet.cs" />
     <Compile Include="Row.cs" />

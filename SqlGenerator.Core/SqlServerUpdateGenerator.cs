@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SqlGenerator.Core
 {
-    class SqlServerUpdateGenerator
+    public class SqlServerUpdateGenerator : StatementGeneratorBase
     {
     }
 }
