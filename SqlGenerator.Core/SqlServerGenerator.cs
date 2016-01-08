@@ -26,7 +26,7 @@ namespace SqlGenerator.Core
             InsertTemplate = "INSERT INTO {Table} ({Columns})" + Environment.NewLine +
                               "VALUES ({Values})" + Environment.NewLine;
 
-            UpdateTemplate = "UPDATE {Table} SET " + Environment.NewLine + "{Assign}WHERE {Where}" + Environment.NewLine;
+            UpdateTemplate = "UPDATE {Table} SET " + Environment.NewLine + "{Assign} WHERE {Where}" + Environment.NewLine;
 
             UpdateValueAssignmentTemplate = "{Column} = {Value}{Comma} " + Environment.NewLine;
 
